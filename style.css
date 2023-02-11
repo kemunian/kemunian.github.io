@@ -5,12 +5,12 @@
 body {
 background:#0a0a0a;
 font-family:Arial, Helvetica, sans-serif;
+margin:auto;
 color:#000000;
 }
 
 main {
   width:1000px;
-  margin:auto;
   border:2px solid #06284b;
   background:#ffffffcc;
   padding:5px 15px;
