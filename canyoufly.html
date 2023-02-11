@@ -17,12 +17,12 @@
 
         <br><br><br><br>
 
-        <video preload="none" controls playsinline loop muted poster="/images/media/Poster-" id="videoposter">
-            <source id="homevideo" src="/images/media/Video-" type="video/mp4">
+        <video preload="none" controls playsinline loop muted poster="video/random/" id="videoposter">
+            <source id="homevideo" src="video/random/" type="video/mp4">
             </video>
             
             <script>
-            var poster = document.getElementById('videoposter');
+            var poster = document.getElementById('homevideo');
             var number = Math.floor(Math.random() * 3) + 1;
             poster.src += number +'.mp4';
             poster.poster += number +'.jpg';
