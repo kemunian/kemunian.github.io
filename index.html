@@ -13,17 +13,12 @@
     <h1>Welcome to my mine</h1>
 
     We are mining diamonds
+    <br>
+    <button type="button" onclick="alert('bruh!')">Subscribe</button>
+    <button onclick="snd.play()">Subscribe</button>
 
-    <button type="button" onclick="alert('Hello world!')">Subscribe</button>
-    <a onclick="playSound('sound/bruh.mp3')">
-      <img src="images/subscribebutton.png">
-   </a>
-   <div id="sound"></div>
-   
-   <script>
-      var playSound = function (soundFile) {
-         $("#sound").html("<embed src=\"" + soundFile + "\" hidden=\"true\" autostart=\"true\" />");
-      }
-   </script>
+<script>
+    var snd = new Audio("sound/bruh.mp3"); 
+</script>
 </body>
 </html>
