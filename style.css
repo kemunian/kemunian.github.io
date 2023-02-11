@@ -18,6 +18,14 @@ main {
   text-align:justify;
   }
 
+header {
+  border:2px solid #094683;
+  background:#ffffff;
+  padding:5px 15px;
+  line-height:1.4em;
+  text-align:justify;
+  }
+
 left {
   display: inline;
   width:50px
