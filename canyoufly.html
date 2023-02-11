@@ -18,17 +18,15 @@
 
         <video width="240" height="360" controls>
         <source src="" id="RandomVid" type="video/mp4">
-        </video>
         <script>
             window.onload = function(event) {
                 
             document.getElementById("RandomVid").src = Math.floor(Math.random() * 9 + 1).toString() + ".mp4";
           
-          //Remove the code below in the real thing
-          alert(document.getElementById('RandomVid').src);
         
             }
         </script>
+        </video>
 
 
      </center>   
