@@ -16,12 +16,12 @@
 
         <br><br><br><br>
 
-        <video width="240" height="360" controls>
-        <source src="" id="RandomVid" type="video/mp4">
+        <video autoplay loop>
+        <source src="video/random/" id="RandomVid" type="video/mp4">
         <script>
             window.onload = function(event) {
                 
-            document.getElementById("RandomVid").src = Math.floor(Math.random() * 9 + 1).toString() + ".mp4";
+            document.getElementById("RandomVid").src = Math.floor(Math.random() * 9 + 1).toString() + ".mp4" +;
           
         
             }
