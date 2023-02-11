@@ -13,9 +13,20 @@
     <body>
      <center>
         <h1>Can you Fly?</h1>
+
+        <source src="" id="RandomVid" type="video/mp4">
+<script>
+    window.onload = function(event) {
+        
+    document.getElementById("RandomVid").src = Math.floor(Math.random() * 9 + 1).toString() + ".mp4";
+    }
+</script>
+
      </center>   
 
-     <audio autoplay loop src="sound/canyouflydrumloop.wav"></audio>
+     <audio autoplay>
+        <source src="sound/canyouflydrumloop.wav" type="audio/wav">
+    </audio>
 
     </body>
 </html>
