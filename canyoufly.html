@@ -14,13 +14,20 @@
      <center>
         <h1>Can you Fly?</h1>
 
+        <br><br><br><br>
+
         <source src="" id="RandomVid" type="video/mp4">
-<script>
-    window.onload = function(event) {
+        <script>
+            window.onload = function(event) {
+                
+            document.getElementById("RandomVid").src = Math.floor(Math.random() * 9 + 1).toString() + ".mp4";
+          
+          //Remove the code below in the real thing
+          alert(document.getElementById('RandomVid').src);
         
-    document.getElementById("RandomVid").src = Math.floor(Math.random() * 9 + 1).toString() + ".mp4";
-    }
-</script>
+            }
+        </script>
+
 
      </center>   
 
