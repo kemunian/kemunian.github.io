@@ -7,10 +7,10 @@ background:#0a0a0a;
 font-family:Arial, Helvetica, sans-serif;
 margin:auto;
 color:#000000;
+width:1000px;
 }
 
 main {
-  width:1000px;
   border:2px solid #06284b;
   background:#ffffffcc;
   padding:5px 15px;
