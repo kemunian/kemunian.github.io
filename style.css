@@ -8,3 +8,12 @@ body {
   font-family: Helvetica;
 }
 
+body {
+  width:800px;
+  border:1px solid #7bb0e6;
+  border-top:none;
+  display:grid;
+  grid-template-columns: 600px 200px;
+  grid-template-rows: 125px 230px auto;
+}
+
