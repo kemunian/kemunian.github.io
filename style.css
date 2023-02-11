@@ -20,3 +20,9 @@ body {
   grid-template-rows: 125px 230px auto;
 }
 
+main {
+  background:#ffffff;
+  padding:5px 15px;
+  line-height:1.4em;
+  text-align:justify;
+  }
