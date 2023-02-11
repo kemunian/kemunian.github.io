@@ -9,6 +9,7 @@
             font-family: 'Courier New', Courier, monospace;
         }
         </style>
+        <title>Can you Fly?</title>
     </head>
     <body>
      <center>
@@ -16,17 +17,16 @@
 
         <br><br><br><br>
 
-        <video autoplay loop>
-        <source src="video/random/" id="RandomVid" type="video/mp4">
-        <script>
-            window.onload = function(event) {
-                
-            document.getElementById("RandomVid").src = Math.floor(Math.random() * 9 + 1).toString() + ".mp4" +;
-          
-        
-            }
-        </script>
-        </video>
+        <video preload="none" controls playsinline loop muted poster="/video/random/" id="videoposter">
+            <source id="homevideo" src="/video/random/" type="video/mp4">
+            </video>
+            
+            <script>
+            var poster = document.getElementById('videoposter');
+            var number = Math.floor(Math.random() * 3) + 1;
+            poster.src += number +'.mp4';
+            poster.poster += number +'.jpg';
+            </script>
 
 
      </center>   
