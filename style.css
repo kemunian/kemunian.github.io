@@ -3,9 +3,12 @@
    "how to change link color." */
 
 body {
-  background-color: black;
-  color: white;
-  font-family: Helvetica;
+background:#141414;
+width:100%;
+margin:auto;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#fafafa;
 }
 
 body {
