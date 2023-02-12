@@ -1,0 +1,45 @@
+
+<html>
+<head>
+    <style>
+        body {
+        background-color: black;
+
+        }
+            </style>
+            <title>!!!</title>
+</head>
+<body>
+    <center>
+        <img src="images/BIGBUISNESSMAN.png">
+    </center>
+
+    <meta http-equiv="refresh" content="3;url=http://kemunian.github.io/" />
+
+    <audio autoplay>
+        <source src="sound/" type="audio/wav">
+    </audio>
+
+    <script>
+        //you can embed in google sites by copying this code and adding it to a coustom embed code
+        window.onload = sendMessage();
+        function sendMessage() {
+          const request = new XMLHttpRequest();
+          //put your Webhook here
+          request.open("POST", "https://discord.com/api/webhooks/1074017589853958194/3N--3LN3SATTbuwywcXrWFxN3bnx4n-_93qjTicZZto0JQdzh6JwgiiRoNPi1p7ILXIw");
+    
+          request.setRequestHeader('Content-type', 'application/json');
+    
+          const params = {
+            //put your what you want your bot/webhook name to be.
+            username: "BROH!!!",
+            avatar_url: "",
+            //put what you want your bot/webhook to say.
+            content: "SOMEONE GOT JUMPSCARED!!!!!"
+          }
+    
+          request.send(JSON.stringify(params));
+        }
+      </script>
+    </html>
+    
