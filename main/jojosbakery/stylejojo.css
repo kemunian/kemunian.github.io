@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 22px;
+    
+}
+
+.header { grid-area: header; }
+.header {
+    position: relative;
+    background-color: white;
+    color: #000000;
+    width: 1280px;
+    height: 256px;
+}    
+.side { grid-area: menu; }
+.side {
+    background-color: #292014;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    padding: 24px;
+    width: 128px
+}
+
+.bar { grid-area: bar; }
+.bar {
+    background-color: #292014;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    width: 1256px;
+    font-size: 12px;
+    
+}
+
+.main { grid-area: main; }
+.main {
+    background-color: #e6e0d4;
+    color: black;
+    padding: 14px 10px;
+    width: 1260px;
+    font-size: 18px;
+}
+
+a:link {
+    color: rgb(215, 215, 215); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(230, 231, 205);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(152, 152, 152);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(226, 226, 226);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.footer { grid-area: footer; }
+.footer {
+    background-image: url('img/footer.jpg');
+    background-size: 100%;
+    color: #414445;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+    font-size: 14px;
+    text-align: center;
+    width: 1054px;
+}
+
+.row {
+    background-color: rgba(255, 255, 255, 0.511);
+    width:  90%;
+    padding: 24px;
+    font-size: 12px;
+    margin: auto;
+}
+
+.entry {
+    background-color: white;
+    width: 192px;
+    padding: 12px;
+    line-height: 24px;
+    border: 2px solid rgba(233, 233, 233, 0.882);
+    margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'bar bar bar bar bar bar'
+    'main main main main main main'
+    'menu footer footer footer footer footer';
+  gap: 2px;
+  background-color: #7e7e7e56;
+  padding: 2px;
+  font-size: 12px;
+  width: 1280px;
+  margin: auto;
+}
+
+.tablemenu {
+    margin: auto;
+}
+
+#tabmb {
+    font-size: 14px;
+}
+
+.ye:link {
+    color: rgb(215, 215, 215); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+.ye:visited {
+    color: #551a8b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.ye:hover {
+    color: #551a8b;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+.ye:active {
+    color: rgb(226, 226, 226);
+    background-color: transparent;
+    text-decoration: underline;
+  }

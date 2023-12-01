@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+        body {
+            background-image: url("img/canyoufly.png");
+            background-repeat: repeat; 
+            background-size: 100px, 82px;
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        </style>
+        <title>Can you Fly?</title>
+    </head>
+    <body>
+     <center>
+        <div style="height: 100%;">
+        <video controls autoplay>
+            <source id="homevideo" src="video/random/" type="video/mp4">
+            </video>
+            
+            <script>
+            var poster = document.getElementById('homevideo');
+            var number = Math.floor(Math.random() * 9) + 1;
+            poster.src += number +'.mp4';
+            </script>
+
+            
+</center>   
+        </div>
+        <a href="canyoufly.html"><button style="position: absolute; bottom: 24px; left: 6px; size: 20px;">refresh page</button></a>
+        <br>
+        <a href="home.html"><button style="position: absolute; bottom: 3px; left: 6px; size: 20px;">return to home</button></a>
+
+     <audio autoplay>
+        <source src="sound/canyouflydrumloop.wav" type="audio/wav">
+    </audio>
+
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Dates</h1>
+<h2>The getMonth() Method</h2>
+
+<p>getMonth() returns the month (from 0 to 11) of a date:</p>
+
+<b id="demo"></b>
+<b id="demo2"></b>
+
+<script>
+const month = ["January","February","March","April","May","June","July","August","September","October","brudda","December"];
+
+const d = new Date();
+let name = month[d.getMonth()];
+document.getElementById("demo").innerHTML = name;
+</script>
+<script>
+  const e = new Date();
+  let day = e.getDate();
+  document.getElementById("demo2").innerHTML = day;
+  </script>
+
+<table style="background: white; width: 232px; font-size: 10px; margin: auto; padding: 0px;">
+  <tr>
+    <td style="width: 50%">
+    a
+    </td>
+    <td style="width: 50%">
+    b
+    </td>
+</tr>
+</table>
+
+</body>
+</html>
